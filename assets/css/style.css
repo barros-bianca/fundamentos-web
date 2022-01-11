@@ -1,0 +1,60 @@
+.center{
+   display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    display: inline;
+    padding: 30px;
+ 
+}
+
+.menu li a {
+
+    text-decoration: none;
+    color: rgb(255, 99, 42);
+    font-size: 20px;
+}
+
+.menu li a:hover {
+    color: rgb(255, 147, 108);
+}
+
+.p-30 {
+    flex-flow: row wrap;
+    padding: 90px;
+}
+
+.br-50{
+    border-radius: 50%;
+}
+
+.wh {
+    width: 400px;
+    height: 400px;
+}
+
+.tm {
+    width: 30px;
+    height: 30px;
+}
+
+.titulo {
+  
+    color: indianred;
+  
+}
