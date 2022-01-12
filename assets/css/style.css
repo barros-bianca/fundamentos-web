@@ -3,11 +3,19 @@
     justify-content: center;
 }
 
+.justify {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(49, 49, 49);
+}
+
 .container1 {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    padding: 30px;
+    
 }
 
 .container2 {
@@ -28,6 +36,7 @@
     text-decoration: none;
     color: rgb(255, 99, 42);
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .menu li a:hover {
@@ -54,7 +63,23 @@
 }
 
 .titulo {
-  
+    font-family: Arial, Helvetica, sans-serif;
     color: indianred;
   
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.background {
+    background-color:rgb(255, 245, 245)
+}
+
+.rodape{
+    justify-content: space-around;
 }
